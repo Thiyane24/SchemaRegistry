@@ -26,7 +26,8 @@ class Schema:
     def get_field(self, name):
         for field in self.fields:
             if field.name == name:
-                return f"Field(name={field.name}, data_type={field.data_type}, nullable={field.nullable}, default={field.default})"
+                return Field
+            return None
             
     @property
     def field_names(self):
