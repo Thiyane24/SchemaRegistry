@@ -26,8 +26,8 @@ class Schema:
     def get_field(self, name):
         for field in self.fields:
             if field.name == name:
-                return Field
-            return None
+                return field
+        return None
             
     @property
     def field_names(self):
