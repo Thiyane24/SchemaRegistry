@@ -6,7 +6,7 @@ A schema management system built in Python as part of a 7-project OOP Data Engin
 
 ## What it does
 
-Real pipelines break when schemas change without warning. A field gets renamed, a type changes, a required column gets dropped and suddenly your consumers are crashing with no clear reason why.
+Real pipelines break when schemas change without warning. A field gets renamed, a type changes, a required column gets dropped  and suddenly your consumers are crashing with no clear reason why.
 
 This project tackles that problem by giving you a system that:
 
@@ -109,11 +109,17 @@ Overall: BREAKING
 ```
 
 ---
-#Installation
 
-git clone https://github.com/Thiyane24/SchemaRegistry 
+## Installation
+
+Clone the repository and you are ready to go, no dependencies to install.
+
+```bash
+git clone https://github.com/Thiyane24/SchemaRegistry
 cd SchemaRegistry
+```
 
+---
 
 ## Running with Docker
 
@@ -129,9 +135,9 @@ docker run schemaregistry
 ## Tech Stack
 
 - Python 3.12
-- OOP: abstract classes, dataclasses, enums, classmethods, properties
+- OOP — abstract classes, dataclasses, enums, classmethods, properties
 - Docker
-- Standard library only, no third-party dependencies
+- Standard library only — no third-party dependencies
 
 ---
 
