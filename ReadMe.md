@@ -40,7 +40,7 @@ README.md
 A single column definition. Validates that the data type is one of `int`, `str`, `float`, `bool`, `list`, or `dict`. Raises a `ValueError` on invalid input.
 
 ### Schema
-A versioned collection of `Field` objects. Supports serialisation via `to_dict()` and reconstruction via `from_dict()` — a classmethod that acts as an alternative constructor.
+A versioned collection of `Field` objects. Supports serialisation via `to_dict()` and reconstruction via `from_dict()`  a classmethod that acts as an alternative constructor.
 
 ### SchemaRegistry
 Stores schemas by name and auto-increments versions on each update. Always returns the latest version by default.
