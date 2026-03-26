@@ -109,6 +109,11 @@ Overall: BREAKING
 ```
 
 ---
+#Installation
+
+git clone https://github.com/Thiyane24/SchemaRegistry 
+cd SchemaRegistry
+
 
 ## Running with Docker
 
